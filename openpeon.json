@@ -1,0 +1,58 @@
+{
+  "cesp_version": "1.0",
+  "name": "metal-gear-peon",
+  "display_name": "Metal Gear Peon",
+  "version": "0.1.0",
+  "description": "Tactical espionage sound pack. MGS voice lines and sound effects for your coding missions.",
+  "author": {
+    "name": "Sam Bencivengo",
+    "github": "sambencivengo"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/codec-open.mp3", "label": "Codec Open" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/item-open.mp3", "label": "Item Open" },
+        { "file": "sounds/codec-close.mp3", "label": "Codec Close" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/item-used.mp3", "label": "Item Used" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/alert.mp3", "label": "Alert sound (!)" },
+        { "file": "sounds/game-over.mp3", "label": "Game Over (!)" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/codec.mp3", "label": "Codec call" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/doorbuzz.mp3", "label": "Door Buzz" }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        { "file": "sounds/exit.mp3", "label": "Exit" }
+      ]
+    },
+    "user.spam": {
+      "sounds": []
+    },
+    "task.progress": {
+      "sounds": []
+    }
+  }
+}
