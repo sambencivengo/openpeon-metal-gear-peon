@@ -2,10 +2,28 @@
 
 A [CESP 1.0](https://openpeon.com/spec) sound pack for [OpenPeon](https://openpeon.com) featuring sound effects from Metal Gear Solid.
 
-## Install
+## Prerequisites
+
+Install [peon-ping](https://openpeon.com):
 
 ```
-peon packs install sambencivengo/metal-gear-peon
+curl -fsSL https://raw.githubusercontent.com/PeonPing/peon-ping/main/install.sh | bash
+```
+
+## Install
+
+From the registry:
+
+```
+peon packs install metal-gear-peon
+peon packs use metal-gear-peon
+```
+
+Or install locally from a cloned copy:
+
+```
+git clone https://github.com/sambencivengo/metal-gear-peon.git
+peon packs install-local ./metal-gear-peon
 peon packs use metal-gear-peon
 ```
 
