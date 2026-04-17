@@ -35,7 +35,7 @@
     },
     "input.required": {
       "sounds": [
-        { "file": "sounds/codec.mp3", "label": "Codec call" }
+        { "file": "sounds/codec-open.mp3", "label": "Codec Open" }
       ]
     },
     "resource.limit": {
